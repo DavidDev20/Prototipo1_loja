@@ -18,24 +18,28 @@
 
             <div class="mainform">
 
-                <form action="">
+                <form action="" id="adduser">
 
                     <div class="inputs">
                         <label for="nomeusuario" class="formtext">Nome de usuário:</label><br>
-                        <input type="text" id="nomeusuario" name="nomeusuario" class="forminput" required><br>
+                        <input type="text" id="nomeusuario" name="nomeusuario" class="forminput required"  oninput="namevalidate()"><br>
+                        <span class="span-required">Digite um nome com no minimo 8 caracteres</span>
 
                         <label for="email" class="formtext">Email:</label><br>
-                        <input type="text" id="email" name="email" class="forminput" required><br>
+                        <input type="email" id="email" name="email" class="forminput required"  oninput="emailvalidate()"><br>
+                        <span class="span-required">Digite um Email válido</span>
 
                         <label for="senha" class="formtext">Senha:</label><br>
-                        <input type="text" id="senha" name="senha" class="forminput" required><br>
+                        <input type="password" id="senha" name="senha" class="forminput required"  oninput="passwordvalidate()"><br>
+                        <span class="span-required">Digite uma senha com no minimo 8 caracteres</span>
 
                         <label for="confirmasenha" class="formtext">Confirmar senha:</label><br>
-                        <input type="text" id="confirmasenha" name="confirmasenha" class="forminput" required><br>
+                        <input type="password" id="confirmasenha" name="confirmasenha" class="forminput required"  oninput="comparepassword()"><br>
+                        <span class="span-required">A senhas dever ser iguais</span>
                     </div>
 
                     <div class="checkbox">
-                       <input type="checkbox" name="" id="" value="" class="checkTPP">
+                       <input type="checkbox" name="" id="" value="" class="checkTPP" required>
                         <label for="" class="checkTPPtext">Li e concordo com os termos de <a href="">Politíca e Privacidade</a></label><br> 
                     </div>
 
@@ -84,5 +88,6 @@
     </footer>
 
     <script src="https://kit.fontawesome.com/792acc9727.js" crossorigin="anonymous"></script>
+    <script src="../js/validaçãoadduser.js"></script>
 </body>
 </html>
