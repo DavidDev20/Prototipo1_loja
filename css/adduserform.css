@@ -1,0 +1,92 @@
+body{
+    background-color: #2c2c2c;
+}
+.mainadduser{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.backgroundform{
+    text-align: center;
+}
+.backgroundform img{
+    width: 320px;
+    height: 160px;  
+    margin: 40px 0 40px 0;
+}
+.mainform{
+    background-color: #404040;
+    text-align: center;
+    padding: 40px 0 10px 0;
+    width: 310px;
+    border-radius: 10px;
+    margin: auto;
+}
+.inputs{
+    text-align: start;
+    margin-left: 2em;
+}
+.formtext{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 800;
+    
+}
+.forminput{
+    width: 240px;
+    height: 25px;
+    margin: 5px 0 25px 0;
+    border-radius: 5px;
+    border: none;
+    background-color: #656565;
+}
+.checkbox{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-weight: 800;
+    margin-bottom: 35px;
+}
+.checkbox a{
+    text-decoration: none;
+    color: #0267ff;
+    transition-duration: 0.4s;
+}
+.checkbox a:hover{
+    color: #ff4d00;
+    transition-duration: 0.4s;
+}
+.submitbtn{
+    width: 210px;
+    height: 60px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    background-color: #0267ff;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    margin-bottom: 25px;
+}
+.submitbtn:hover{
+    background-color: #ff4d00;
+    transition-duration: 0.4s;
+}
+.login{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    color: #fff;
+    margin-top: 100px;
+}
+.login a{
+    text-decoration: none;
+    color: #0267ff;
+    transition-duration: 0.4s;
+}
+.login a:hover{
+    color: #ff4d00;
+    transition-duration: 0.4s;
+}
