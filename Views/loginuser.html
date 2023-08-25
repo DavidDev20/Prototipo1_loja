@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/cssreset.css">
     <link rel="stylesheet" href="../css/cssfooter.css">
-    <link rel="stylesheet" href="../css/adduserform.css">
+    <link rel="stylesheet" href="../css/loginuserform.css">
     <link rel="stylesheet" type="text/css" href="../css/all.min.css">
     <link rel="icon" type="image/x-icon" href="../imgs/logo header img.png">
     <title>MOD TUNER</title>
@@ -26,35 +26,28 @@
                 <form action="" id="adduser">
 
                     <div class="inputs">
+
                         <label for="nomeusuario" class="formtext">Nome de usuário:</label><br>
                         <input type="text" id="nomeusuario" name="nomeusuario" class="forminput required"  oninput="namevalidate()"><br>
                         <span class="span-required">Digite um nome com no minimo 8 caracteres</span>
-
-                        <label for="email" class="formtext">Email:</label><br>
-                        <input type="email" id="email" name="email" class="forminput required"  oninput="emailvalidate()"><br>
-                        <span class="span-required">Digite um Email válido</span>
 
                         <label for="senha" class="formtext">Senha:</label><br>
                         <input type="password" id="senha" name="senha" class="forminput required"  oninput="passwordvalidate()"><br>
                         <span class="span-required">Digite uma senha com no minimo 8 caracteres</span>
 
-                        <label for="confirmasenha" class="formtext">Confirmar senha:</label><br>
-                        <input type="password" id="confirmasenha" name="confirmasenha" class="forminput required"  oninput="comparepassword()"><br>
-                        <span class="span-required">A senhas dever ser iguais</span>
                     </div>
 
                     <div class="checkbox">
                        <input type="checkbox" name="" id="" value="" class="checkTPP" required>
-                        <label for="" class="checkTPPtext">Li e concordo com os termos de <a href="">Politíca e Privacidade</a></label><br> 
+                        <label for="" class="checkTPPtext">Lembre de mim</label><br> 
                     </div>
 
-                    <input type="submit" value="Cadastre-se" class="submitbtn">
+                    <input type="submit" value="Login" class="submitbtn">
 
                 </form>
 
             </div>
             
-            <p class="login">Já possui uma conta?<a href="loginuser.html">Faça Login.</a></p>
         </div>
     </main>
     <footer class="footercolor">
@@ -93,6 +86,6 @@
     </footer>
 
     <script src="https://kit.fontawesome.com/792acc9727.js" crossorigin="anonymous"></script>
-    <script src="../js/validaçãoadduser.js"></script>
+    <script src="../js/validaçãologinuser.js"></script>
 </body>
 </html>
