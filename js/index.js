@@ -28,7 +28,7 @@ function showSlides(n){
 }
 
 
-/* 
+
 let slideIndexauto = 0;
 showSlidesauto();
 
@@ -54,4 +54,4 @@ function showSlidesauto(){
     slides[slideIndexauto-1].style.display = "block";
     dotsa[slideIndexauto-1].className += " active";
     setTimeout(showSlidesauto, 50000); 
-} */
+} 
