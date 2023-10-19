@@ -67,7 +67,10 @@
     </header>
 
     <main>
-        <div class="slider-contain">    <!-- slideshow container -->
+
+        <!-- carousel start -->
+
+        <div class="slider-contain"> <!-- slideshow container -->
 
             <!-- Imgs full width and text -->
 
@@ -113,9 +116,246 @@
             <span class="dot" onclick="currentSlide(5)"></span>
         </div>
 
+        <!-- carousel =end -->
 
-        
-        
+        <!-- filter start -->
+        <div class="action-filter">
+
+            <div class="btn-filter" onclick="menufilter();">
+                <button type="button"> <i class="fa-solid fa-bars"></i>
+                    <p>Filtro</p>
+                </button>
+                <div class="border-filter"></div>
+            </div>
+
+            <div class="menu-filter">
+                <form action="" class="menu-form">
+
+                    <div class="element-filter1">
+                        <h5>Selecione uma marca:</h5>
+                        <div class="brand-filter">
+                            <input type="checkbox" name="" id="check-brand1">
+                            <label for="check-brand1" class="check-brand-label"><img src="../imgs/brand-filterimg5.jpg"
+                                    alt="Volksvagen" srcset=""></label>
+                        </div>
+
+
+                        <div class="brand-filter">
+                            <input type="checkbox" name="" id="check-brand2">
+                            <label for="check-brand2" class="check-brand-label"><img src="../imgs/brand-filterimg2.jpg"
+                                    alt="Fiat" srcset=""></label>
+                        </div>
+
+
+                        <div class="brand-filter">
+                            <input type="checkbox" name="" id="check-brand3">
+                            <label for="check-brand3" class="check-brand-label"><img src="../imgs/brand-filterimg3.jpg"
+                                    alt="Ford" srcset=""></label>
+
+                        </div>
+
+
+                        <div class="brand-filter">
+                            <input type="checkbox" name="" id="check-brand4">
+                            <label for="check-brand4" class="check-brand-label"><img src="../imgs/brand-filterimg6.jpg"
+                                    alt="Chevrolet" srcset=""></label>
+
+                        </div>
+
+
+                        <div class="brand-filter">
+                            <input type="checkbox" name="" id="check-brand5">
+                            <label for="check-brand5" class="check-brand-label"><img src="../imgs/brand-filterimg1.jpg"
+                                    alt="Mitsubishi" srcset=""></label>
+
+                        </div>
+
+
+                        <div class="brand-filter">
+                            <input type="checkbox" name="" id="check-brand6">
+                            <label for="check-brand6" class="check-brand-label"><img src="../imgs/brand-filterimg4.jpg"
+                                    alt="Toyota" srcset=""></label>
+
+                        </div><br>
+
+                        <div class="brand-filter-link">
+                            <a href="" >Ver todas as marcas <i class="fa-solid fa-chevron-right"></i></a>
+                        </div>
+                        
+
+                    </div>
+                    
+                    <div class="element-filter2">
+                        <h5>Selecione o tipo de carroceria:</h5>
+                        <div class="checkbox-filter">
+                            <input type="checkbox" name="" id="element-filter2-checkbox1" class="checkbox-btn">
+                            <label for="element-filter2-checkbox1">Sedã</label>
+                        </div>
+
+
+                        <div class="checkbox-filter">
+                            <input type="checkbox" name="" id="element-filter2-checkbox2" class="checkbox-btn">
+                            <label for="element-filter2-checkbox2">Perua</label>
+                        </div>
+
+
+                        <div class="checkbox-filter">
+                            <input type="checkbox" name="" id="element-filter2-checkbox3" class="checkbox-btn">
+                            <label for="element-filter2-checkbox3">Hachtback</label>
+                        </div>
+
+
+                        <div class="checkbox-filter">
+                            <input type="checkbox" name="" id="element-filter2-checkbox4" class="checkbox-btn">
+                            <label for="element-filter2-checkbox4">Pickup</label>
+                        </div>
+
+
+                        <div class="checkbox-filter">
+                            <input type="checkbox" name="" id="element-filter2-checkbox5" class="checkbox-btn">
+                            <label for="element-filter2-checkbox5">SUV</label>
+                        </div>
+                    </div>
+
+
+                    
+                    <div class="element-filter3">
+                        <h5>Selecione o tipo de motor:</h5>
+                        <div class="checkbox-filter">
+                            <input type="checkbox" name="" id="element-filter3-checkbox1" class="checkbox-btn">
+                            <label for="element-filter3-checkbox1">4 cilindros</label>
+                        </div>
+
+
+                        <div class="checkbox-filter">
+                            <input type="checkbox" name="" id="element-filter3-checkbox2" class="checkbox-btn">
+                            <label for="element-filter3-checkbox2">5 cilindros</label>
+                        </div>
+
+
+                        <div class="checkbox-filter">
+                            <input type="checkbox" name="" id="element-filter3-checkbox3" class="checkbox-btn">
+                            <label for="element-filter3-checkbox3">6 cilindros</label>
+                        </div>
+
+                        <div class="checkbox-filter">
+                            <input type="checkbox" name="" id="element-filter3-checkbox4" class="checkbox-btn">
+                            <label for="element-filter3-checkbox4">V6</label>
+                        </div>
+
+
+                        <div class="checkbox-filter">
+                            <input type="checkbox" name="" id="element-filter3-checkbox5" class="checkbox-btn">
+                            <label for="element-filter3-checkbox5">V8</label>
+                        </div>
+
+
+                        <div class="checkbox-filter">
+                            <input type="checkbox" name="" id="element-filter3-checkbox6" class="checkbox-btn">
+                            <label for="element-filter3-checkbox6">V10</label>
+                        </div>
+
+
+                        <div class="checkbox-filter">
+                            <input type="checkbox" name="" id="element-filter3-checkbox7" class="checkbox-btn">
+                            <label for="element-filter3-checkbox7">VR6</label>
+                        </div>
+
+
+                        <div class="checkbox-filter">
+                            <input type="checkbox" name="" id="element-filter3-checkbox8" class="checkbox-btn">
+                            <label for="element-filter3-checkbox8">Boxer 4</label>
+                        </div>
+
+
+                        <div class="checkbox-filter">
+                            <input type="checkbox" name="" id="element-filter3-checkbox9" class="checkbox-btn">
+                            <label for="element-filter3-checkbox9">Boxer 6</label>
+                        </div>
+
+
+                        <div class="checkbox-filter">
+                            <input type="checkbox" name="" id="element-filter3-checkbox10" class="checkbox-btn">
+                            <label for="element-filter3-checkbox10">Flat 6</label>
+                        </div>
+
+
+                        <div class="checkbox-filter">
+                            <input type="checkbox" name="" id="element-filter3-checkbox11" class="checkbox-btn">
+                            <label for="element-filter3-checkbox11">Rotativo</label>
+                        </div>
+                    </div>
+                    
+                    <div class="element-filter4">
+                        <h5>Selecione o tamanho do aro:</h5>
+                        <div class="checkbox-filter">
+                            <input type="checkbox" name="" id="element-filter4-checkbox1" class="checkbox-btn">
+                            <label for="element-filter4-checkbox1">14 polegadas</label>
+                        </div>
+
+
+                        <div class="checkbox-filter">
+                            <input type="checkbox" name="" id="element-filter4-checkbox2" class="checkbox-btn">
+                            <label for="element-filter4-checkbox2">15 polegadas</label>
+                        </div>
+
+
+                        <div class="checkbox-filter">
+                            <input type="checkbox" name="" id="element-filter4-checkbox3" class="checkbox-btn">
+                            <label for="element-filter4-checkbox3">16 polegadas</label>
+                        </div>
+
+
+                        <div class="checkbox-filter">
+                            <input type="checkbox" name="" id="element-filter4-checkbox4" class="checkbox-btn">
+                            <label for="element-filter4-checkbox4">17 polegadas</label>
+                        </div>
+
+
+                        <div class="checkbox-filter">
+                            <input type="checkbox" name="" id="element-filter4-checkbox5" class="checkbox-btn">
+                            <label for="element-filter4-checkbox5">18 polegadas</label>
+                        </div>
+
+
+                        <div class="checkbox-filter">
+                            <input type="checkbox" name="" id="element-filter4-checkbox6" class="checkbox-btn">
+                            <label for="element-filter4-checkbox6">19 polegadas</label>
+                        </div>
+
+
+                        <div class="checkbox-filter">
+                            <input type="checkbox" name="" id="element-filter4-checkbox7" class="checkbox-btn">
+                            <label for="element-filter4-checkbox7">20 polegadas</label>
+                        </div>
+                    </div>
+
+
+                    
+                    <div class="element-filter5">
+                        <h5>Selecione o ano do veículo:</h5>
+                        <div class="age-filter">
+                            <label for="">De:</label>
+                            <input type="text" name="" id="" class="text-age">
+                        </div>
+
+
+                        <div class="age-filter">
+                            <label for="">Até:</label>
+                            <input type="text" name="" id="" class="text-age2">
+                        </div>
+                    </div>
+
+                    <div class="submit">
+                        <input type="submit" value="Filtrar" class="submit-btn">
+                    </div>
+                    
+
+                </form>
+            </div>
+        </div>
+        <!-- filter end -->
+
     </main>
 
     <footer class="footercolor">
