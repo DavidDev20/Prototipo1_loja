@@ -118,243 +118,795 @@
 
         <!-- carousel =end -->
 
-        <!-- filter start -->
-        <div class="action-filter">
+        <div class="main-grid">
 
-            <div class="btn-filter" onclick="menufilter();">
-                <button type="button"> <i class="fa-solid fa-bars"></i>
-                    <p>Filtro</p>
-                </button>
-                <div class="border-filter"></div>
+
+
+            <!-- filter start -->
+            <div class="action-filter">
+
+                <div class="btn-filter" onclick="menufilter();">
+                    <button type="button"> <i class="fa-solid fa-bars"></i>
+                        <p>Filtro</p>
+                    </button>
+                    <div class="border-filter"></div>
+                </div>
+
+                <div class="menu-filter">
+                    <form action="" class="menu-form">
+
+                        <div class="element-filter1">
+                            <h5>Selecione uma marca:</h5>
+                            <div class="brand-filter">
+                                <input type="checkbox" name="" id="check-brand1">
+                                <label for="check-brand1" class="check-brand-label"><img
+                                        src="../imgs/brand-filterimg5.jpg" alt="Volksvagen" srcset=""></label>
+                            </div>
+
+
+                            <div class="brand-filter">
+                                <input type="checkbox" name="" id="check-brand2">
+                                <label for="check-brand2" class="check-brand-label"><img
+                                        src="../imgs/brand-filterimg2.jpg" alt="Fiat" srcset=""></label>
+                            </div>
+
+
+                            <div class="brand-filter">
+                                <input type="checkbox" name="" id="check-brand3">
+                                <label for="check-brand3" class="check-brand-label"><img
+                                        src="../imgs/brand-filterimg3.jpg" alt="Ford" srcset=""></label>
+
+                            </div>
+
+
+                            <div class="brand-filter">
+                                <input type="checkbox" name="" id="check-brand4">
+                                <label for="check-brand4" class="check-brand-label"><img
+                                        src="../imgs/brand-filterimg6.jpg" alt="Chevrolet" srcset=""></label>
+
+                            </div>
+
+
+                            <div class="brand-filter">
+                                <input type="checkbox" name="" id="check-brand5">
+                                <label for="check-brand5" class="check-brand-label"><img
+                                        src="../imgs/brand-filterimg1.jpg" alt="Mitsubishi" srcset=""></label>
+
+                            </div>
+
+
+                            <div class="brand-filter">
+                                <input type="checkbox" name="" id="check-brand6">
+                                <label for="check-brand6" class="check-brand-label"><img
+                                        src="../imgs/brand-filterimg4.jpg" alt="Toyota" srcset=""></label>
+
+                            </div><br>
+
+                            <div class="brand-filter-link">
+                                <a href="">Ver todas as marcas <i class="fa-solid fa-chevron-right"></i></a>
+                            </div>
+
+
+                        </div>
+
+                        <div class="element-filter2">
+                            <h5>Selecione o tipo de carroceria:</h5>
+                            <div class="checkbox-filter">
+                                <input type="checkbox" name="" id="element-filter2-checkbox1" class="checkbox-btn">
+                                <label for="element-filter2-checkbox1">Sedã</label>
+                            </div>
+
+
+                            <div class="checkbox-filter">
+                                <input type="checkbox" name="" id="element-filter2-checkbox2" class="checkbox-btn">
+                                <label for="element-filter2-checkbox2">Perua</label>
+                            </div>
+
+
+                            <div class="checkbox-filter">
+                                <input type="checkbox" name="" id="element-filter2-checkbox3" class="checkbox-btn">
+                                <label for="element-filter2-checkbox3">Hachtback</label>
+                            </div>
+
+
+                            <div class="checkbox-filter">
+                                <input type="checkbox" name="" id="element-filter2-checkbox4" class="checkbox-btn">
+                                <label for="element-filter2-checkbox4">Pickup</label>
+                            </div>
+
+
+                            <div class="checkbox-filter">
+                                <input type="checkbox" name="" id="element-filter2-checkbox5" class="checkbox-btn">
+                                <label for="element-filter2-checkbox5">SUV</label>
+                            </div>
+                        </div>
+
+
+
+                        <div class="element-filter3">
+                            <h5>Selecione o tipo de motor:</h5>
+                            <div class="checkbox-filter">
+                                <input type="checkbox" name="" id="element-filter3-checkbox1" class="checkbox-btn">
+                                <label for="element-filter3-checkbox1">4 cilindros</label>
+                            </div>
+
+
+                            <div class="checkbox-filter">
+                                <input type="checkbox" name="" id="element-filter3-checkbox2" class="checkbox-btn">
+                                <label for="element-filter3-checkbox2">5 cilindros</label>
+                            </div>
+
+
+                            <div class="checkbox-filter">
+                                <input type="checkbox" name="" id="element-filter3-checkbox3" class="checkbox-btn">
+                                <label for="element-filter3-checkbox3">6 cilindros</label>
+                            </div>
+
+                            <div class="checkbox-filter">
+                                <input type="checkbox" name="" id="element-filter3-checkbox4" class="checkbox-btn">
+                                <label for="element-filter3-checkbox4">V6</label>
+                            </div>
+
+
+                            <div class="checkbox-filter">
+                                <input type="checkbox" name="" id="element-filter3-checkbox5" class="checkbox-btn">
+                                <label for="element-filter3-checkbox5">V8</label>
+                            </div>
+
+
+                            <div class="checkbox-filter">
+                                <input type="checkbox" name="" id="element-filter3-checkbox6" class="checkbox-btn">
+                                <label for="element-filter3-checkbox6">V10</label>
+                            </div>
+
+
+                            <div class="checkbox-filter">
+                                <input type="checkbox" name="" id="element-filter3-checkbox7" class="checkbox-btn">
+                                <label for="element-filter3-checkbox7">VR6</label>
+                            </div>
+
+
+                            <div class="checkbox-filter">
+                                <input type="checkbox" name="" id="element-filter3-checkbox8" class="checkbox-btn">
+                                <label for="element-filter3-checkbox8">Boxer 4</label>
+                            </div>
+
+
+                            <div class="checkbox-filter">
+                                <input type="checkbox" name="" id="element-filter3-checkbox9" class="checkbox-btn">
+                                <label for="element-filter3-checkbox9">Boxer 6</label>
+                            </div>
+
+
+                            <div class="checkbox-filter">
+                                <input type="checkbox" name="" id="element-filter3-checkbox10" class="checkbox-btn">
+                                <label for="element-filter3-checkbox10">Flat 6</label>
+                            </div>
+
+
+                            <div class="checkbox-filter">
+                                <input type="checkbox" name="" id="element-filter3-checkbox11" class="checkbox-btn">
+                                <label for="element-filter3-checkbox11">Rotativo</label>
+                            </div>
+                        </div>
+
+                        <div class="element-filter4">
+                            <h5>Selecione o tamanho do aro:</h5>
+                            <div class="checkbox-filter">
+                                <input type="checkbox" name="" id="element-filter4-checkbox1" class="checkbox-btn">
+                                <label for="element-filter4-checkbox1">14 polegadas</label>
+                            </div>
+
+
+                            <div class="checkbox-filter">
+                                <input type="checkbox" name="" id="element-filter4-checkbox2" class="checkbox-btn">
+                                <label for="element-filter4-checkbox2">15 polegadas</label>
+                            </div>
+
+
+                            <div class="checkbox-filter">
+                                <input type="checkbox" name="" id="element-filter4-checkbox3" class="checkbox-btn">
+                                <label for="element-filter4-checkbox3">16 polegadas</label>
+                            </div>
+
+
+                            <div class="checkbox-filter">
+                                <input type="checkbox" name="" id="element-filter4-checkbox4" class="checkbox-btn">
+                                <label for="element-filter4-checkbox4">17 polegadas</label>
+                            </div>
+
+
+                            <div class="checkbox-filter">
+                                <input type="checkbox" name="" id="element-filter4-checkbox5" class="checkbox-btn">
+                                <label for="element-filter4-checkbox5">18 polegadas</label>
+                            </div>
+
+
+                            <div class="checkbox-filter">
+                                <input type="checkbox" name="" id="element-filter4-checkbox6" class="checkbox-btn">
+                                <label for="element-filter4-checkbox6">19 polegadas</label>
+                            </div>
+
+
+                            <div class="checkbox-filter">
+                                <input type="checkbox" name="" id="element-filter4-checkbox7" class="checkbox-btn">
+                                <label for="element-filter4-checkbox7">20 polegadas</label>
+                            </div>
+                        </div>
+
+
+
+                        <div class="element-filter5">
+                            <h5>Selecione o ano do veículo:</h5>
+                            <div class="age-filter">
+                                <label for="">De:</label>
+                                <input type="text" name="" id="" class="text-age">
+                            </div>
+
+
+                            <div class="age-filter">
+                                <label for="">Até:</label>
+                                <input type="text" name="" id="" class="text-age2">
+                            </div>
+                        </div>
+
+                        <div class="submit">
+                            <input type="submit" value="Filtrar" class="submit-btn">
+                        </div>
+
+
+                    </form>
+                </div>
+            </div>
+            <!-- filter end -->
+
+            <!-- Product main start -->
+            <div class="product-grid-1">
+                <div class="product-grid-title">
+                    <p>MECÂNICA</p>
+                    <div class="title-border"></div>
+                </div>
+
+                <div class="grid">
+                    <div class="product-card">
+
+                        <div class="product-img">
+                            <img src="../imgs/D_NQ_NP_795131-MLB53305424740_01.jpg" alt="Turbina Roletada Gtx3576r T3 A/r 0.63 - Garrett" srcset="">
+                        </div>
+
+                        <div class="product-descripion">
+                            <p>Turbina Roletada Gtx3576r T3 A/r 0.63 - Garrett </p>
+                        </div>
+
+                        <div class="product-price">
+                            <h5>R$ 22.215</h5>
+                        </div>
+
+                        <div class="product-buy-bnt">
+                            <a href="">Comprar <i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+
+
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="../imgs/kit_nitro_com_1_fogger_para_ate.jpg" alt="Kit nitro completo 10 lbs - NOS" srcset="">
+                        </div>
+
+                        <div class="product-descripion">
+                            <p>Kit nitro completo 10 lbs - NOS </p>
+                        </div>
+
+                        <div class="product-price">
+                            <h5>R$ 14.900</h5>
+                        </div>
+
+                        <div class="product-buy-bnt">
+                            <a href="">Comprar <i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+
+
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="../imgs/FT450InjecaoEletronicaProgramave.jpg" alt="Injeção eletrônica FT450 - Fuel Tech" srcset="">
+                        </div>
+
+                        <div class="product-descripion">
+                            <p>Injeção eletrônica FT450 - Fuel Tech  </p>
+                        </div>
+
+                        <div class="product-price">
+                            <h5>R$ 3.990</h5>
+                        </div>
+
+                        <div class="product-buy-bnt">
+                            <a href="">Comprar <i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+
+
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="../imgs/MVLPTW02-MVLANLP07JG-MVLBIL57_10.jpg" alt="Kit pistão e biela forjados para VW/AUDI 1.8 20V (82mm) 1000cv" srcset="">
+                        </div>
+
+                        <div class="product-descripion">
+                            <p>Kit pistão e biela forjados para VW/AUDI 1.8 20V (82mm) 1000cv </p>
+                        </div>
+
+                        <div class="product-price">
+                            <h5>R$ 749.90</h5>
+                        </div>
+
+                        <div class="product-buy-bnt">
+                            <a href="">Comprar <i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+
+
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="../imgs/BMW-E30-M3-FRONT-WILWOOD-BIG-BRA.jpg" alt="Kit freio a disco dianteiro 310mm aro 16 - WilWood" srcset="">
+                        </div>
+
+                        <div class="product-descripion">
+                            <p>Kit freio a disco dianteiro 310mm aro 16 - WilWood </p>
+                        </div>
+
+                        <div class="product-price">
+                            <h5>R$ 1.475</h5>
+                        </div>
+
+                        <div class="product-buy-bnt">
+                            <a href="">Comprar <i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+
+
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="../imgs/81x7a8VgeYL.jpg" alt="Suspensão coilover ajustável 2009 - 2017" srcset="">
+                        </div>
+
+                        <div class="product-descripion">
+                            <p>Suspensão coilover ajustável 2009 - 2017 </p>
+                        </div>
+
+                        <div class="product-price">
+                            <h5>R$ 318,78</h5>
+                        </div>
+
+                        <div class="product-buy-bnt">
+                            <a href="">Comprar <i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <div class="menu-filter">
-                <form action="" class="menu-form">
 
-                    <div class="element-filter1">
-                        <h5>Selecione uma marca:</h5>
-                        <div class="brand-filter">
-                            <input type="checkbox" name="" id="check-brand1">
-                            <label for="check-brand1" class="check-brand-label"><img src="../imgs/brand-filterimg5.jpg"
-                                    alt="Volksvagen" srcset=""></label>
+            <div class="product-grid-2">
+                <div class="product-grid-title">
+                    <p>INTERIOR</p>
+                    <div class="title-border"></div>
+                </div>
+
+                <div class="grid">
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="../imgs/Sparco-345-Steering-Wheel-Leathe.jpg" alt="Volante esportivo Sparco R368 em suede" srcset="">
                         </div>
 
-
-                        <div class="brand-filter">
-                            <input type="checkbox" name="" id="check-brand2">
-                            <label for="check-brand2" class="check-brand-label"><img src="../imgs/brand-filterimg2.jpg"
-                                    alt="Fiat" srcset=""></label>
+                        <div class="product-descripion">
+                            <p>Volante esportivo Sparco R368 em suede </p>
                         </div>
 
-
-                        <div class="brand-filter">
-                            <input type="checkbox" name="" id="check-brand3">
-                            <label for="check-brand3" class="check-brand-label"><img src="../imgs/brand-filterimg3.jpg"
-                                    alt="Ford" srcset=""></label>
-
+                        <div class="product-price">
+                            <h5>R$ 332,05</h5>
                         </div>
 
-
-                        <div class="brand-filter">
-                            <input type="checkbox" name="" id="check-brand4">
-                            <label for="check-brand4" class="check-brand-label"><img src="../imgs/brand-filterimg6.jpg"
-                                    alt="Chevrolet" srcset=""></label>
-
-                        </div>
-
-
-                        <div class="brand-filter">
-                            <input type="checkbox" name="" id="check-brand5">
-                            <label for="check-brand5" class="check-brand-label"><img src="../imgs/brand-filterimg1.jpg"
-                                    alt="Mitsubishi" srcset=""></label>
-
-                        </div>
-
-
-                        <div class="brand-filter">
-                            <input type="checkbox" name="" id="check-brand6">
-                            <label for="check-brand6" class="check-brand-label"><img src="../imgs/brand-filterimg4.jpg"
-                                    alt="Toyota" srcset=""></label>
-
-                        </div><br>
-
-                        <div class="brand-filter-link">
-                            <a href="" >Ver todas as marcas <i class="fa-solid fa-chevron-right"></i></a>
-                        </div>
-                        
-
-                    </div>
-                    
-                    <div class="element-filter2">
-                        <h5>Selecione o tipo de carroceria:</h5>
-                        <div class="checkbox-filter">
-                            <input type="checkbox" name="" id="element-filter2-checkbox1" class="checkbox-btn">
-                            <label for="element-filter2-checkbox1">Sedã</label>
-                        </div>
-
-
-                        <div class="checkbox-filter">
-                            <input type="checkbox" name="" id="element-filter2-checkbox2" class="checkbox-btn">
-                            <label for="element-filter2-checkbox2">Perua</label>
-                        </div>
-
-
-                        <div class="checkbox-filter">
-                            <input type="checkbox" name="" id="element-filter2-checkbox3" class="checkbox-btn">
-                            <label for="element-filter2-checkbox3">Hachtback</label>
-                        </div>
-
-
-                        <div class="checkbox-filter">
-                            <input type="checkbox" name="" id="element-filter2-checkbox4" class="checkbox-btn">
-                            <label for="element-filter2-checkbox4">Pickup</label>
-                        </div>
-
-
-                        <div class="checkbox-filter">
-                            <input type="checkbox" name="" id="element-filter2-checkbox5" class="checkbox-btn">
-                            <label for="element-filter2-checkbox5">SUV</label>
+                        <div class="product-buy-bnt">
+                            <a href="">Comprar <i class="fa-solid fa-cart-shopping"></i></a>
                         </div>
                     </div>
 
 
-                    
-                    <div class="element-filter3">
-                        <h5>Selecione o tipo de motor:</h5>
-                        <div class="checkbox-filter">
-                            <input type="checkbox" name="" id="element-filter3-checkbox1" class="checkbox-btn">
-                            <label for="element-filter3-checkbox1">4 cilindros</label>
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="../imgs/HC1GMF.jpg" alt="Banco concha Bride zeta IV" srcset="">
                         </div>
 
-
-                        <div class="checkbox-filter">
-                            <input type="checkbox" name="" id="element-filter3-checkbox2" class="checkbox-btn">
-                            <label for="element-filter3-checkbox2">5 cilindros</label>
+                        <div class="product-descripion">
+                            <p>Banco concha Bride zeta IV </p>
                         </div>
 
-
-                        <div class="checkbox-filter">
-                            <input type="checkbox" name="" id="element-filter3-checkbox3" class="checkbox-btn">
-                            <label for="element-filter3-checkbox3">6 cilindros</label>
+                        <div class="product-price">
+                            <h5>R$ 1.199</h5>
                         </div>
 
-                        <div class="checkbox-filter">
-                            <input type="checkbox" name="" id="element-filter3-checkbox4" class="checkbox-btn">
-                            <label for="element-filter3-checkbox4">V6</label>
-                        </div>
-
-
-                        <div class="checkbox-filter">
-                            <input type="checkbox" name="" id="element-filter3-checkbox5" class="checkbox-btn">
-                            <label for="element-filter3-checkbox5">V8</label>
-                        </div>
-
-
-                        <div class="checkbox-filter">
-                            <input type="checkbox" name="" id="element-filter3-checkbox6" class="checkbox-btn">
-                            <label for="element-filter3-checkbox6">V10</label>
-                        </div>
-
-
-                        <div class="checkbox-filter">
-                            <input type="checkbox" name="" id="element-filter3-checkbox7" class="checkbox-btn">
-                            <label for="element-filter3-checkbox7">VR6</label>
-                        </div>
-
-
-                        <div class="checkbox-filter">
-                            <input type="checkbox" name="" id="element-filter3-checkbox8" class="checkbox-btn">
-                            <label for="element-filter3-checkbox8">Boxer 4</label>
-                        </div>
-
-
-                        <div class="checkbox-filter">
-                            <input type="checkbox" name="" id="element-filter3-checkbox9" class="checkbox-btn">
-                            <label for="element-filter3-checkbox9">Boxer 6</label>
-                        </div>
-
-
-                        <div class="checkbox-filter">
-                            <input type="checkbox" name="" id="element-filter3-checkbox10" class="checkbox-btn">
-                            <label for="element-filter3-checkbox10">Flat 6</label>
-                        </div>
-
-
-                        <div class="checkbox-filter">
-                            <input type="checkbox" name="" id="element-filter3-checkbox11" class="checkbox-btn">
-                            <label for="element-filter3-checkbox11">Rotativo</label>
-                        </div>
-                    </div>
-                    
-                    <div class="element-filter4">
-                        <h5>Selecione o tamanho do aro:</h5>
-                        <div class="checkbox-filter">
-                            <input type="checkbox" name="" id="element-filter4-checkbox1" class="checkbox-btn">
-                            <label for="element-filter4-checkbox1">14 polegadas</label>
-                        </div>
-
-
-                        <div class="checkbox-filter">
-                            <input type="checkbox" name="" id="element-filter4-checkbox2" class="checkbox-btn">
-                            <label for="element-filter4-checkbox2">15 polegadas</label>
-                        </div>
-
-
-                        <div class="checkbox-filter">
-                            <input type="checkbox" name="" id="element-filter4-checkbox3" class="checkbox-btn">
-                            <label for="element-filter4-checkbox3">16 polegadas</label>
-                        </div>
-
-
-                        <div class="checkbox-filter">
-                            <input type="checkbox" name="" id="element-filter4-checkbox4" class="checkbox-btn">
-                            <label for="element-filter4-checkbox4">17 polegadas</label>
-                        </div>
-
-
-                        <div class="checkbox-filter">
-                            <input type="checkbox" name="" id="element-filter4-checkbox5" class="checkbox-btn">
-                            <label for="element-filter4-checkbox5">18 polegadas</label>
-                        </div>
-
-
-                        <div class="checkbox-filter">
-                            <input type="checkbox" name="" id="element-filter4-checkbox6" class="checkbox-btn">
-                            <label for="element-filter4-checkbox6">19 polegadas</label>
-                        </div>
-
-
-                        <div class="checkbox-filter">
-                            <input type="checkbox" name="" id="element-filter4-checkbox7" class="checkbox-btn">
-                            <label for="element-filter4-checkbox7">20 polegadas</label>
+                        <div class="product-buy-bnt">
+                            <a href="">Comprar <i class="fa-solid fa-cart-shopping"></i></a>
                         </div>
                     </div>
 
 
-                    
-                    <div class="element-filter5">
-                        <h5>Selecione o ano do veículo:</h5>
-                        <div class="age-filter">
-                            <label for="">De:</label>
-                            <input type="text" name="" id="" class="text-age">
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="../imgs/6ff42b3ddf4189f78b59e6a35d2eb434.jpg" alt="Kit tapete automotivo BMW M3" srcset="">
                         </div>
 
+                        <div class="product-descripion">
+                            <p>Kit tapete automotivo BMW M3 </p>
+                        </div>
 
-                        <div class="age-filter">
-                            <label for="">Até:</label>
-                            <input type="text" name="" id="" class="text-age2">
+                        <div class="product-price">
+                            <h5>R$ 333,12</h5>
+                        </div>
+
+                        <div class="product-buy-bnt">
+                            <a href="">Comprar <i class="fa-solid fa-cart-shopping"></i></a>
                         </div>
                     </div>
 
-                    <div class="submit">
-                        <input type="submit" value="Filtrar" class="submit-btn">
-                    </div>
-                    
 
-                </form>
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="../imgs/71ICqB2U-hL.jpg" alt="Conta giro Sport Comp com Shift Ligth" srcset="">
+                        </div>
+
+                        <div class="product-descripion">
+                            <p>Conta giro Sport Comp com Shift Ligth </p>
+                        </div>
+
+                        <div class="product-price">
+                            <h5>R$ 479,90</h5>
+                        </div>
+
+                        <div class="product-buy-bnt">
+                            <a href="">Comprar <i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+
+
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="../imgs/E36_Door_cards8__45398.167718965.jpg" alt="Forro de porta esquerdo BMW E36" srcset="">
+                        </div>
+
+                        <div class="product-descripion">
+                            <p>Forro de porta esquerdo BMW E36 </p>
+                        </div>
+
+                        <div class="product-price">
+                            <h5>R$ 369,90</h5>
+                        </div>
+
+                        <div class="product-buy-bnt">
+                            <a href="">Comprar <i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+
+
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="../imgs/ChaseBays2022Version3V3HydroHand.jpg" alt="Freio de mão hidráulico Chase bays" srcset="">
+                        </div>
+
+                        <div class="product-descripion">
+                            <p>Freio de mão hidráulico Chase bays </p>
+                        </div>
+
+                        <div class="product-price">
+                            <h5>R$ 269,99</h5>
+                        </div>
+
+                        <div class="product-buy-bnt">
+                            <a href="">Comprar <i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="product-grid-3">
+                <div class="product-grid-title">
+                    <p>RODAS</p>
+                    <div class="title-border"></div>
+                </div>
+
+                <div class="grid">
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="../imgs/TE37Saga-Splus-Bronze_7872e55f-6.jpg" alt="Jogo de rodas Volk racing TE37 - 18" srcset="">
+                        </div>
+
+                        <div class="product-descripion">
+                            <p>Jogo de rodas Volk racing TE37 - 18" </p>
+                        </div>
+
+                        <div class="product-price">
+                            <h5>R$ 4.890</h5>
+                        </div>
+
+                        <div class="product-buy-bnt">
+                            <a href="">Comprar <i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+
+
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="../imgs/meister-s13p-3_3000x.jpg" alt="Jogo de rodas Work Meister S1 3P - 17" srcset="">
+                        </div>
+
+                        <div class="product-descripion">
+                            <p>Jogo de rodas Work Meister S1 3P - 17" </p>
+                        </div>
+
+                        <div class="product-price">
+                            <h5>R$ 4.590</h5>
+                        </div>
+
+                        <div class="product-buy-bnt">
+                            <a href="">Comprar <i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+
+
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="../imgs/120VN215011_L1600_5e3cec6d-38bb.jpg" alt="Jogo de rodas American racing VN215 - 16" srcset="">
+                        </div>
+
+                        <div class="product-descripion">
+                            <p>Jogo de rodas American racing VN215 - 16" </p>
+                        </div>
+
+                        <div class="product-price">
+                            <h5>R$ 4.910</h5>
+                        </div>
+
+                        <div class="product-buy-bnt">
+                            <a href="">Comprar <i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+
+
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="../imgs/bbs_fi-r_schwarz_matt.jpg" alt="Jogo de rodas BBS CI-R - 19" srcset="">
+                        </div>
+
+                        <div class="product-descripion">
+                            <p>Jogo de rodas BBS CI-R - 19" </p>
+                        </div>
+
+                        <div class="product-price">
+                            <h5>R$ 4.230</h5>
+                        </div>
+
+                        <div class="product-buy-bnt">
+                            <a href="">Comprar <i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+
+
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="../imgs/dsc06833a_copy.jpg" alt="Jogo de rodas NISMO LMGT4 - 18" srcset="">
+                        </div>
+
+                        <div class="product-descripion">
+                            <p>Jogo de rodas NISMO LMGT4 - 18" </p>
+                        </div>
+
+                        <div class="product-price">
+                            <h5>R$ 5.150</h5>
+                        </div>
+
+                        <div class="product-buy-bnt">
+                            <a href="">Comprar <i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+
+
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="../imgs/emotioncrkiwami_bronze_white.jpg" alt="Jogo de rodas Work CR Kiwami - 20" srcset="">
+                        </div>
+
+                        <div class="product-descripion">
+                            <p>Jogo de rodas Work CR Kiwami - 20" </p>
+                        </div>
+
+                        <div class="product-price">
+                            <h5>R$ 4.750</h5>
+                        </div>
+
+                        <div class="product-buy-bnt">
+                            <a href="">Comprar <i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <!-- filter end -->
+
+        <div class="product-grid-4">
+            <div class="product-grid-title">
+                <p>PROMOÇÃO</p>
+                <div class="title-border"></div>
+            </div>
+
+            <div class="grid">
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="../imgs/Iridium-Spark-Plug-TORCH-KH6RIU.jpg" alt="Jogo de velas de ignição Iridium " srcset="">
+                    </div>
+
+                    <div class="product-descripion">
+                        <p>Jogo de velas de ignição Iridium </p>
+                    </div>
+
+                    <div class="product-price">
+                        <h3>R$ 55,00</h3>
+                        <h5>R$ 4.750</h5>
+                    </div>
+
+                    <div class="product-buy-bnt">
+                        <a href="">Comprar <i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                </div>
+
+
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="../imgs/71f4HNd JLL.jpg" alt="Kit de ignição com distribuidor MSD 85551K" srcset="">
+                    </div>
+
+                    <div class="product-descripion">
+                        <p>Kit de ignição com distribuidor MSD 85551K </p>
+                    </div>
+
+                    <div class="product-price">
+                        <h3>R$ 1.350</h3>
+                        <h5>R$ 940,75</h5>
+                    </div>
+
+                    <div class="product-buy-bnt">
+                        <a href="">Comprar <i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                </div>
+
+
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="../imgs/akum._fuel_cell_standard_3.jpg" alt="Tanque de combustivel esportivo 20L - Fuel Safe" srcset="">
+                    </div>
+
+                    <div class="product-descripion">
+                        <p>Tanque de combustivel esportivo 20L - Fuel Safe </p>
+                    </div>
+
+                    <div class="product-price">
+                        <h3>R$ 1.020</h3>
+                        <h5>R$ 875,90</h5>
+                    </div>
+
+                    <div class="product-buy-bnt">
+                        <a href="">Comprar <i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                </div>
+
+
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="../imgs/s-l1200.jpg" alt="Abafador esportivo 75mm - HKS" srcset="">
+                    </div>
+
+                    <div class="product-descripion">
+                        <p>Abafador esportivo 75mm - HKS </p>
+                    </div>
+
+                    <div class="product-price">
+                        <h3>R$ 340,00</h3>
+                        <h5>R$ 149,90</h5>
+                    </div>
+
+                    <div class="product-buy-bnt">
+                        <a href="">Comprar <i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="product-grid-5">
+            <div class="product-grid-title">
+                <p>FRETE GRÁTIS</p>
+                <div class="title-border"></div>
+            </div>
+
+            <div class="grid">
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="../imgs/s-l12002.jpg" alt="Tampa de cabeçote Honda Civic B16Z6 - Muguen" srcset="">
+                    </div>
+
+                    <div class="product-descripion">
+                        <p>Tampa de cabeçote Honda Civic B16Z6 - Muguen </p>
+                    </div>
+
+                    <div class="product-price">
+                        <h5>R$ 629,90</h5>
+                    </div>
+
+                    <div class="product-buy-bnt">
+                        <a href="">Comprar <i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                </div>
+
+
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="../imgs/emotioncrkiwami_bronze_white.jpg" alt="Jogo de rodas Work CR Kiwami - 20" srcset="">
+                    </div>
+
+                    <div class="product-descripion">
+                        <p>Jogo de rodas Work CR Kiwami - 20" </p>
+                    </div>
+
+                    <div class="product-price">
+                        <h5>R$ 4.750</h5>
+                    </div>
+
+                    <div class="product-buy-bnt">
+                        <a href="">Comprar <i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                </div>
+
+
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="../imgs/Sparco-345-Steering-Wheel-Leathe.jpg" alt="Volante esportivo Sparco R368 em suede" srcset="">
+                    </div>
+
+                    <div class="product-descripion">
+                        <p>Volante esportivo Sparco R368 em suede </p>
+                    </div>
+
+                    <div class="product-price">
+                        <h5>R$ 332,05</h5>
+                    </div>
+
+                    <div class="product-buy-bnt">
+                        <a href="">Comprar <i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                </div>
+
+
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="../imgs/81x7a8VgeYL.jpg" alt="Suspensão coilover ajustável 2009 - 2017" srcset="">
+                    </div>
+
+                    <div class="product-descripion">
+                        <p>Suspensão coilover ajustável 2009 - 2017 </p>
+                    </div>
+
+                    <div class="product-price">
+                        <h5>R$ 318,78</h5>
+                    </div>
+
+                    <div class="product-buy-bnt">
+                        <a href="">Comprar <i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- Product main end -->
+
 
     </main>
 
