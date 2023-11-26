@@ -100,7 +100,7 @@
     border-left: 2px solid rgb(0, 0, 0,0.2);
     pointer-events: none;
 }
-.product-btn button{
+.product-btn a{
     border: none;
     border-radius: 7px;
     width: 220px;
@@ -113,8 +113,9 @@
     margin-left: 25px;
     transition-duration: 0.4s;
     cursor: pointer;
+    text-decoration: none;
 }
-.product-btn button:hover{
+.product-btn a:hover{
     background-color: #ff4d00;
 }
 .product-page-description h5{
@@ -202,7 +203,7 @@
     .increment-btn .number{
         font-size: 22px;
     }
-    .product-btn button{
+    .product-btn a{
         font-size: 35px;
         width: 250px;
         padding: 20px;
