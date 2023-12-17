@@ -4,7 +4,7 @@
     height: 17em;
     background-color: #1f1f1f;
     border-radius: 10px;
-    margin: 3em 1em;
+    margin: 3em auto;
     box-shadow:  12px 12px 40px #161616,
                     -12px -12px 40px #282828;
     transition-duration: 0.4s;
@@ -12,11 +12,287 @@
 
 .cart-price-card{
     max-width: 28em;
-    height: 42em;
     background-color: #1f1f1f;
     border-radius: 10px;
     margin: 3em 1em;
     box-shadow:  12px 12px 40px #161616,
                     -12px -12px 40px #282828;
     transition-duration: 0.4s;
+
+}
+
+.cart-product-card-img img{
+    width: 130px;
+    height: 130px;
+    border-radius: 10px;
+}
+.cart-product-card-img{
+    text-align: center;
+    padding-top: 1em;
+}
+.cart-product-card-text p{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 1em 0 1em;
+}
+.cart-product-card-text h2{
+    color: #ff4d00;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+}
+.cart-product-card-text{
+    margin: 0 1em 0;
+}
+@media only screen and (min-width: 480px){
+    .cart-price-card{
+        margin: 3em auto;
+        
+    }
+    
+}
+@media only screen and (min-width: 530px){
+    .cart-product-card{
+        display: flex;
+        height: 14em;
+        
+    }
+    .cart-product-card-text p{
+        font-size: 22px;
+    }
+    .cart-product-card-text h2{
+        font-size: 40px;
+    }
+    .cart-product-card-img img{
+        width: 160px;
+        height: 160px;
+        margin-left: 1em;
+        margin-top: 1em;
+        
+    }
+    .cart-product-card-text{
+        margin-top: 1em;
+    }
+}
+@media only screen and (min-width: 745px){
+    
+    .cart-product-card-text p{
+        font-size: 27px;
+    }
+    .cart-product-card-text h2{
+        font-size: 45px;
+    }
+    .cart-product-card-img img{
+        width: 180px;
+        height: 180px;
+        margin-left: 1em;
+        margin-top: 1em;
+        
+    }
+    .cart-product-card-text{
+        margin-top: 1em;
+    }
+    .cart-product-card{
+        height: 15em;
+    }
+}
+
+.card-price-title{
+    text-align: center;
+    padding: 2.5em 0 1em;
+}
+.card-price-title h2{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+.card-input-cupom{
+    margin: 2em 0;
+    text-align: center;
+}
+.card-input-cupom label{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 6.5em;
+
+}
+.card-input-cupom input{
+    outline: none;
+    background-color: #282828;
+    border: 2px solid #282828;
+    border-radius: 5px;
+    width: 11em;
+    font-size: 22px;
+    margin-top: 0.5em;
+    color: #fff;
+}
+.card-input-cupom input:focus{
+    border-color:#0267ff;
+}
+
+.card-input-frete{
+    margin: 2em 0;
+    text-align: center;
+}
+.card-input-frete .cep-number{
+    font-size: 22px;
+    outline: none;
+    background-color: #282828;
+    border: 2px solid #282828;
+    border-radius: 5px;
+    color: #fff;
+    width: 8em;
+}
+.card-input-frete .cep-number:focus{
+    border-color: #0267ff;
+}
+.card-input-frete .cep-number-btn{
+    background-color: #0267ff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 7px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.card-input-frete .cep-number-btn:hover{
+    background-color: #ff4d00;
+}
+.frete-ex{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    margin: 1em 0 0 1.5em;
+}
+.frete-value{
+    display: flex;
+    align-items: center;
+    margin: 2em 0 0 1.3em;
+}
+.frete-value p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+.frete-value label{
+    color: #838383;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 2em;
+}
+.card-price-end{
+    text-align: end;
+}
+.card-price-end h2{
+    color: #ff4d00;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    margin: 0.5em 0.2em;
+}
+.card-price-end p{
+    color: #838383;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+.finish-order-btn{
+    text-align: center;
+    padding: 2em;
+}
+.finish-order-btn input{
+    border: none;
+    color: #fff;
+    background-color: #0267ff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.finish-order-btn input:hover{
+    background-color: #ff4d00;
+    transition-duration: 0.4s;
+}
+
+@media only screen and (min-width: 430px){
+    .card-price-title h2{
+        font-size: 30px;
+    }
+    .card-input-cupom label{
+        font-size: 20px;
+    }
+    .card-input-cupom input{
+        width: 14.5em;
+    }
+    .card-input-frete .cep-number{
+        width: 11em;
+    }
+    .frete-ex{
+        font-size: 17px;
+        margin-left: 2em;
+    }
+    .frete-value{
+        margin-left: 2.3em;
+    }
+    .frete-value p{
+        font-size: 22px;
+    }
+    .frete-value label{
+        font-size: 20px;
+    }
+    .card-price-end{
+        margin-right: 1em;
+    }
+    .card-price-end h2{
+        font-size: 40px;
+    }
+    .card-price-end p{
+        font-size: 18px;
+    }
+    .finish-order-btn input{
+        font-size: 30px;
+        padding: 20px;
+    }
+    .finish-order-btn {
+
+        padding: 40px;
+    }
+}
+
+@media only screen and (min-width: 480px){
+    .card-input-cupom input{
+        font-size: 25px;
+    }
+    .card-input-cupom label{
+        margin-right: 8.5em;
+    }
+    .card-input-frete .cep-number{
+        font-size: 25px;
+    }
+    .card-input-frete .cep-number-btn{
+        font-size: 20px;
+        padding: 10px;
+    }
+}
+
+@media only screen and (min-width: 1100px){
+    .main-position{
+        display: flex;
+    }
 }

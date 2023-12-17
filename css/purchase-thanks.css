@@ -10,11 +10,88 @@
 
 .thanks-card{
     max-width: 28em;
-    height: 42em;
     background-color: #1f1f1f;
     border-radius: 10px;
     margin: 3em 1em;
     box-shadow:  12px 12px 40px #161616,
                     -12px -12px 40px #282828;
     transition-duration: 0.4s;
+    
+}
+
+.thanks-card-title-img{
+    margin-top: 2em;
+    text-align: center;
+}
+.thanks-card-title-img img{
+    width: 290px;
+    height: 150px;
+}
+.thanks-card-text{
+    margin: 1em 0.5em;
+}
+.thanks-card-text p{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5em;
+    margin: 0 10px 0 ;
+}
+.thanks-card-btn{
+    text-align: center;
+    padding: 2em 0 3em;
+}
+.thanks-card-btn a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #0267ff;
+    padding: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+}
+.thanks-card-btn a:hover{
+    background-color: #ff4d00;
+}
+@media only screen and (min-width: 425px){
+    .thanks-card{
+        margin: 3em auto;
+    }
+}
+@media only screen and (min-width: 700px){
+    .thanks-card-text p{
+        font-size: 25px;
+    }
+    .thanks-card-btn a{
+        font-size: 22px;
+    }
+    .purchase-thanks-img img{
+        width: 380px;
+        height: 330px;
+    }
+}
+@media only screen and (min-width: 900px){
+    .main-position{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .thanks-card{
+        margin: 3em 0;
+    }
+}
+@media only screen and (min-width: 1024px){
+    .purchase-thanks-img img{
+        width: 500px;
+        height: 450px;
+    }
+}
+@media only screen and (min-width: 1440px){
+    .purchase-thanks-img img{
+        width: 600px;
+        height: 550px;
+    }
 }
