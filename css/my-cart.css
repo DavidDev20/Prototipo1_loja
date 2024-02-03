@@ -213,8 +213,9 @@
 .finish-order-btn{
     text-align: center;
     padding: 2em;
+    margin: 1em 0 2em;
 }
-.finish-order-btn input{
+.finish-order-btn a{
     border: none;
     color: #fff;
     background-color: #0267ff;
@@ -224,8 +225,9 @@
     padding: 15px;
     border-radius: 10px;
     cursor: pointer;
+    text-decoration: none;
 }
-.finish-order-btn input:hover{
+.finish-order-btn a:hover{
     background-color: #ff4d00;
     transition-duration: 0.4s;
 }
@@ -265,7 +267,7 @@
     .card-price-end p{
         font-size: 18px;
     }
-    .finish-order-btn input{
+    .finish-order-btn a{
         font-size: 30px;
         padding: 20px;
     }
