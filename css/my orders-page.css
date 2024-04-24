@@ -11,6 +11,7 @@
 
 .order-track-card{
     max-width: 100em;
+    height: 15em;
     background-color: #1f1f1f;
     border-radius: 10px;
     margin: 3em 1em ;
@@ -45,7 +46,7 @@
     margin: 1em 0 1em;
 }
 .order-product-card-text{
-    margin-left: 10px;
+    margin-left: 5px;
 }
 .order-product-list-btn{
     display: flex;
@@ -194,13 +195,15 @@
     margin: 1em;
     border-radius: 10px;
     padding-bottom: 2em;
-    transition: 0.5s;
+    transition: 0.5s;  
     
+
 }
 .dropdown-product-list.active{
     visibility: visible;
     opacity: 1;
     margin-top: 50px;
+    
 }
 
 
